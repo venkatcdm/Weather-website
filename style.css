@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    height: 88vh;
+   background: url(images/india\ weather\ m\ c0f4fa92-2f88-4207-9c49-1d69a4519e0b.png);
+   background-size: cover;
+   background-position: center;
+}
+.header_text{
+    text-align: center;
+    margin: 0 auto;
+    width: 40%;
+    height: 80vh;
+    margin-top: 70px;
+    border-radius: 20px;
+    background-color: rgba(245, 245, 245, 0.952);   
+    
+}
+.content{
+    padding:30px;    
+}
+.header_text h1{
+    font-size: 30px;
+    font-weight: bolder;
+    color: rgb(1, 0, 7);
+    padding-top: 20px;
+}
+.Weather{
+    padding-top: 40px;
+}
+.Weather input{
+    height: 40px;
+    width: 70%;
+    border-radius: 4px;
+    color: black;
+    font-weight: 600;
+    margin: 0;
+    border: 1px solid black;
+    outline: 1px solid black;
+    margin-right: 30px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 30px;
+}
+.Weather button{
+    background-color: rgb(9, 204, 9);
+    border: 1px solid rgb(9, 204, 9);
+    width: 30%;
+    height: 40px;
+    border-radius: 4px;
+    font-weight: 700;
+    margin:0 auto;
+    margin-top: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Weather button:hover{
+   background-color: rgb(12, 107, 12);
+}
+
+.Weather input:active{
+    border: 1px solid rgb(39, 39, 39);
+    outline: 1px solid rgb(43, 42, 42);
+}
+#image{
+    margin-left: 10px;
+    width:15px;
+    height: 15px;
+}
+#h,p{
+    padding-top: 10px;
+}
+#cityoutput{
+    font-weight: 900;
+}
+.text{
+    width:100%;
+    margin:30px auto;
+}
+.text p{
+    color: rgb(8, 0, 0);
+    font-weight: 600;
+    font-size:18px;
+}
+#image1{
+    height: 80px;
+    width: 80px;
+    margin-left: 150px;
+    margin-top: 55px;
+}
+#image2{
+    height: 80px;
+    width: 80px;
+    margin-top: 70px;
+    margin-right: 150px;
+   
+}
+/*.final{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}*/
